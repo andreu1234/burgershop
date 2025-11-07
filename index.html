@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Poseidon Burger</title>
     <link rel="stylesheet" href="estils.css">
+    <script src="index.js"></script>
 </head>
 <body style="background-color: #f9ffe0;">
 <div class="capcalera">
@@ -22,43 +23,34 @@
 
 <div class="galeria">
     <div class="destacat">
-        <a href="Ingredients%20tres%20pisos.html">
+<!--        <a href="IngredientsTresPisos.html">-->
         <img src="img/145511-king-big-photos-burger-hq-image-free.png" alt="Poseidon Burger" width="300" height="320">
         <h4 style="color: #f9ffe0">TRES PISOS</h4>
-        <div class="preuDestacat">
-            <h4>17.90€</h4>
-         </div>
+            <button type="button" class="preuDestacat" onclick="Comprar('TRES PISOS', 17.90)">17.90€</button>
         </a>
     </div>
-    <a href="Ingredients%20Es%20Bunyol.html">
+<!--    <a href="IngredientsEsBunyol.html">-->
         <div class="item">
             <img src="img/burger%20png999.png" alt="Poseidon Burger" width="275" height="220">
             <h2> Es bunyol </h2>
-            <div class="preu">
-                <h4>12.90€</h4>
-            </div>
+            <button type="button" class="preu" onclick="Comprar('Es bunyol', 12.90)">12.90€</button>
         </div>
     </a>
-
-    <a href="Ingredients%20La%20vegana.html">
+<!--    <a href="IngredientsLaVegana.html">-->
     <div class="item">
         <img src="img/png%204.png" alt="Posiedon Burger" width="275" height="220">
         <h2> 🥬​La vegana🥬​ </h2>
-        <div class="preu">
-            <h4>14.90€</h4>
-        </div>
+        <button type="button" class="preu" onclick="Comprar('🥬​La vegana🥬​', 14.90)">14.90€</button>
     </div>
     </a>
-    <a href="Ingredients%20La%20assassina.html">
+<!--    <a href="IngredientsLaAssassina.html">-->
     <div class="item">
         <img src="img/La%20assassina.png" alt="Poseidon Burger" width="275" height="220">
        <h2> 🌶️​ La assassina 🌶️​ </h2>
-        <div class="preu">
-            <h4>13.90€</h4>
-        </div>
+        <button type="button" class="preu" onclick="Comprar('🌶️​ La assassina 🌶️​', 13.90)">13.90€</button>
     </div>
     </a>
-    <a href="Ingredients%20Triple%20smash.html">
+<!--    <a href="Ingredients%20Triple%20smash.html">
     <div class="item">
         <img src="img/triplesmahspng.webp" alt="Poseidon Burger" width="275" height="220">
         <h2> Triple smash </h2>
@@ -66,43 +58,33 @@
             <h4>16.90€</h4>
         </div>
     </div>
-    </a>
-    <a href="Ingredients%20La%204%20formatges.html">
+    </a>-->
+<!--    <a href="IngredientsLa4Formatges.html">-->
     <div class="item">
         <img src="img/smahspng.webp" alt="Poseidon Burger" width="275" height="220">
         <h2> La 4 formatges</h2>
-        <div class="preu">
-            <h4>13.90€</h4>
-        </div>
+        <button type="button" class="preu" onclick="Comprar('La 4 formatges', 13.90)">13.90€</button>
     </div>
     </a>
-    <a href="Ingredients%20Simple%20doble.html">
+<!--    <a href="IngredientsSimpleDoble.html">-->
     <div class="item">
         <img src="img/Simple%20doble.webp" alt="Poseidon Burger" width="275" height="240">
         <h2> Simple doble</h2>
-        <div class="preu">
-            <h4>10.90€</h4>
-        </div>
+        <button type="button" class="preu" onclick="Comprar('Simple doble', 10.90)">10.90€</button>
     </div>
     </a>
-    <a href="Ingredients%20Bacon%20extra.html">
+<!--    <a href="IngredientsBaconExtra.html">-->
     <div class="item">
         <img src="img/simple%20guapa.png"alt="Poseidon Burger" width="275" height="220">
         <h2> Bacon extra </h2>
-        <div class="preu">
-            <h4>12.90€</h4>
-        </div>
+        <button type="button" class="preu" onclick="Comprar('Bacon extra', 12.90)">12.90€</button>
     </div>
     </a>
-    <a href="Ingredients%20PolloPollo.html">
-    <div class="item">
-        <img src="img/png%20pollo.webp" alt="Poseidon Burger" width="275" height="220" >
-        <h2>PolloPollo</h2>
-        <div class="preu">
-            <h4>13.90€</h4>
-        </div>
+    <div class="carrito">
+<h6>CISTELLA</h6>
+        <h7><div id="cistella"></div></h7>
+        <h8> TOTAL: </h8> <h8 id='PreuTotal'></h8>
     </div>
-    </a>
 </div>
 </body>
 </html>

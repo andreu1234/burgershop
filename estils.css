@@ -61,13 +61,15 @@ h3 {
     border-radius: 25px;
     /*width: min-content;*/
     font-size: 25px;
+    margin-bottom: 30px;
+    padding: 8px;
+    font-weight: bold;
 }
 
 .preu:hover{
     transform: translateY(-10px) scale(1.06);
     background-color: #ff0000;
     color: #f9ffe0;
-    font-weight: bold;
 }
 
 /*Copiat a la pagina web per fer el botó*/
@@ -179,7 +181,7 @@ h3 {
 /*galeria de les patates*/
 .patates2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     margin: 75px;
 }
@@ -197,7 +199,7 @@ h3 {
 /*Capcelera del titol per poder posar el boto alineat*/
 .capcalera{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 5fr 1fr;
     align-items: center;
 }
 
@@ -206,12 +208,15 @@ h3 {
     background-color: #8fafa6;
     color: #f9ffe0;
 }
-
-.preuDestacat{
-    background-color: #97bdb9;
+/*Recuadre del preu a la hamburgesa destacada*/
+.preuDestacat {
+    background-color: #75918d;
     color: #f9ffe0;
-    border-radius: 25px;
-
+    border-radius: 40px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding: 8px;
+    font-weight: bold;
 }
 
 .preuDestacat:hover{
@@ -220,7 +225,7 @@ h3 {
     color: #f9ffe0;
     font-weight: bold;
 }
-
+/*Galeria dels ingredients*/
 .ingredientsGrid{
     display: grid;
     grid-template-columns:1fr;
@@ -233,12 +238,11 @@ h3 {
     background-color: #a7cbc2;
     color: #f9ffe0;
     font-size: 50px;
-    text-align: center;
     border-radius: 25px;
     font-size: 20px;
     text-align: center;
 }
-
+/*Lletres dels ingredients*/
 h1{
     color: #506361;
     font-size: 30px;
@@ -247,7 +251,49 @@ h1{
     margin: 10px;
 
 }
+/*Titol de les hamburgeses en el apartat dels ingredients*/
+h5{
+    color: #365053;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px;
+    text-align: center;
+}
 /*¨Llevar el enllaç subrayat*/
 a{
     text-decoration: none;
+}
+
+.carrito {
+    grid-column: 5;
+    grid-row: 1 / span 3;
+    background-color: #16648b;
+    border-radius: 25px;
+}
+h6 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+h7 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+h8 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: start;
+    text-align: end;
+    margin-left: 15px;
 }
