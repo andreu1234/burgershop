@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Poseidon Burger</title>
     <link rel="stylesheet" href="estils.css">
+    <script src="index.js"></script>
 </head>
 <body style="background-color: #f9ffe0;">
 <div class="capcalera">
@@ -21,26 +22,31 @@
 <div class="patates2">
     <div class="patates">
         <img src="img/patataas%20bacon.webp" alt="Poseidon Burger" width="520" height="220">
-        <h2> Amb formatge i bacon </h2>
+        <h2>Amb formatge i bacon</h2>
         <button type="button" class="preu" onclick="Comprar('Patates amb bacon i formatge', 7.90)">7.90€</button>
-    <div>
-        <div class="patates">
-            <img src="img/Papas%20fritas%20con%20queso%20fundido.png" alt="Poseidon Burger" width="400" height="220">
-            <h2> Amb formatge </h2>
-            <button type="button" class="preu" onclick="Comprar('Patates amb formatge', 7.50)">7.50€</button>
-        </div>
+    </div>
+
+    <div class="patates">
+        <img src="img/Papas%20fritas%20con%20queso%20fundido.png" alt="Poseidon Burger" width="400" height="220">
+        <h2>Amb formatge</h2>
+        <button type="button" class="preu" onclick="Comprar('Patates amb formatge', 7.50)">7.50€</button>
+    </div>
+
     <div class="patates">
         <img src="img/Papas_fritas_doradas_en_caja_roja-removebg-preview.png" alt="Poseidon Burger" width="350" height="220">
-        <h2> Simples </h2>
+        <h2>Simples</h2>
         <button type="button" class="preu" onclick="Comprar('Patates simples', 6.90)">6.90€</button>
     </div>
-    </div>
+</div>
+
 <div class="carrito">
     <h6>CISTELLA</h6>
-    <h7><div id="cistella"></div></h7>
-    <h8> TOTAL: </h8> <h8 id='PreuTotal'></h8>
-</div>
-</div>
+    <h7>
+        <div id="cistella"></div>
+    </h7>
+    <h8> TOTAL: </h8>
+    <h8 id="PreuTotal"></h8>
+    <button type="button" class="buidarcistella" onclick="Buidar()">Borrar cistella</button>
 </div>
 </body>
 </html>

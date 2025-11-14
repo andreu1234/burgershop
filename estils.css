@@ -264,13 +264,14 @@ h5{
 a{
     text-decoration: none;
 }
-
+/*Recudare de la cistella*/
 .carrito {
     grid-column: 5;
     grid-row: 1 / span 3;
     background-color: #16648b;
     border-radius: 25px;
 }
+/*Titol de la cistella*/
 h6 {
     color: #ffffff;
     font-size: 50px;
@@ -280,7 +281,7 @@ h6 {
     padding: 10px;
     margin-bottom: 1px;
 }
-
+/*productes dins la cistella*/
 h7 {
     color: #ffffff;
     font-size: 20px;
@@ -288,12 +289,21 @@ h7 {
     text-align: center;
 
 }
-
+/*el 'TOTAL' + el nombre del preu total de la cistella*/
 h8 {
     color: #ffffff;
     font-size: 35px;
     font-weight: bold;
     text-align: start;
     text-align: end;
-    margin-left: 15px;
+    margin-left: 9px;
+}
+/*estil per el botó per borrar la cistella*/
+.buidarcistella {
+    background-color: #16648b;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
 }

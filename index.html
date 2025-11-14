@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Poseidon Burger</title>
@@ -16,11 +16,7 @@
 
         </button></a>
     </div>
-
-
-
 </div>
-
 <div class="galeria">
     <div class="destacat">
 <!--        <a href="IngredientsTresPisos.html">-->
@@ -81,9 +77,14 @@
     </div>
     </a>
     <div class="carrito">
-<h6>CISTELLA</h6>
-        <h7><div id="cistella"></div></h7>
-        <h8> TOTAL: </h8> <h8 id='PreuTotal'></h8>
+        <h6>CISTELLA</h6>
+        <h7>
+            <div id="cistella"></div>
+            <div id="nombreProductes"></div>
+        </h7>
+        <h8> TOTAL: </h8>
+        <h8 id='PreuTotal'>€</h8>
+        <button type="button" class="buidarcistella" onclick="Buidar()">Borrar cistella</button>
     </div>
 </div>
 </body>
